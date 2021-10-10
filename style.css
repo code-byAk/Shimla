@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(29, 147, 216);
+    padding: 34px;
+    margin: auto;
+}
+.container h2,p {
+    text-align: center;
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+}
+
+input,textarea{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 6px auto;
+    padding: 2px;
+    font-size: 15px;
+}
+form{
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    flex-direction: column;
+}
+.note{
+    font-size: 25px;
+    color: rgb(3, 87, 3);
+} 
